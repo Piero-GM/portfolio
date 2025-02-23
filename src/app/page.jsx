@@ -30,13 +30,13 @@ export default function Home() {
           <header className="flex flex-col items-left space-y-4 -ml-6">
             <Image
               src="/profile.png"
-              width={128} // Updated width
-              height={128} // Updated height
+              width={128}
+              height={128}
               alt="Profile Picture"
               className="rounded-full"
             />
             <div className="text-left">
-              <h2 className="text-3xl font-bold">Software engineer, father, and believer</h2>
+              <h2 className="text-5xl font-bold">Software engineer, father, and believer</h2>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -63,7 +63,7 @@ export default function Home() {
         </main>
 
         {/* Sidebar */}
-        <aside className="space-y-6 w-[120%] mt-72">
+        <aside className="space-y-6 w-[120%] mt-44">
           {/* Newsletter */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow w-full">
             <h3 className="text-lg font-semibold">📩 Stay up to date</h3>

@@ -58,6 +58,7 @@ export default function AboutPage() {
           {/* Social Links */}
           <div className="mt-6 space-y-3">
             <p className="flex items-center space-x-2">
+              <FaXTwitter className="text-blue-500 dark:text-blue-300" size={20} />
               <Link href="https://x.com/yourprofile" className="text-blue-500 dark:text-blue-300">Follow me on X</Link>
             </p>
             <p className="flex items-center space-x-2">
