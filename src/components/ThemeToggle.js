@@ -1,3 +1,4 @@
+// components/ThemeToggle.js
 'use client';
 
 import { useTheme } from 'next-themes';
@@ -12,13 +13,11 @@ export default function ThemeToggle() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null; // Prevents hydration mismatch
+  if (!mounted) return null;
 
   return (
     <button
       onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
-      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition duration-300"
-      aria-label="Toggle Theme"
     >
       {resolvedTheme === 'dark' ? (
         <SunIcon className="w-6 h-6 text-yellow-400" />
